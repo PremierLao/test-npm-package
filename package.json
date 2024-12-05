@@ -1,0 +1,33 @@
+{
+  "name": "tty-debounce-plugin",
+  "version": "1.0.0",
+  "description": "这是天天肉鸭的文章示例代码",
+  "main": "dist/tty-debounce-plugin.js",
+  "module": "dist/tty-debounce-plugin.js",
+  "exports": {
+    ".": {
+      "import": "./dist/tty-debounce-plugin.js",
+      "require": "./dist/tty-debounce-plugin.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "jest"
+  },
+  "author": "tty <my.email@tty.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/......"
+  },
+  "keywords": [
+    "vue",
+    "plugin",
+    "vue3",
+    "debounce",
+    "vite"
+  ],
+  "peerDependencies": {
+    "vue": "^3.3.6"
+  }
+}
